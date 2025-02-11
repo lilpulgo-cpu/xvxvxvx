@@ -32,3 +32,5 @@ static/vendors/mdi/fonts/materialdesignicons-webfont.eot filter=lfs diff=lfs mer
 static/vendors/mdi/fonts/materialdesignicons-webfont.ttf filter=lfs diff=lfs merge=lfs -text
 static/vendors/mdi/fonts/materialdesignicons-webfont.woff filter=lfs diff=lfs merge=lfs -text
 static/vendors/mdi/fonts/materialdesignicons-webfont.woff2 filter=lfs diff=lfs merge=lfs -text
+openvino_model/wav2lip_onnx_export.onnx filter=lfs diff=lfs merge=lfs -text
+openvino_model/wav2lip_openvino_model.bin filter=lfs diff=lfs merge=lfs -text
