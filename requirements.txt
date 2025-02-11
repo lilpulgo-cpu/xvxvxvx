@@ -14,4 +14,4 @@ watchdog==4.0.0
 sounddevice
 huggingface_hub
 requests
-
+python-dotenv
