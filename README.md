@@ -1,7 +1,7 @@
 ---
 license: apache-2.0
 title: sdsdsdsds
-sdk: docker
+sdk: gradio
 emoji: 🏢
 colorFrom: yellow
 colorTo: purple
