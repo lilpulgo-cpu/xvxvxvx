@@ -261,7 +261,7 @@ if __name__ == "__main__":
         test_dataset, batch_size=hparams.syncnet_batch_size,
         num_workers=8)
 
-    device = torch.device("cuda" if use_cuda else "cpu")
+    device = "cpu"
 
     # Model
     model = SyncNet().to(device)

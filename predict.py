@@ -28,7 +28,7 @@ def make_mem_efficient(cls: BasePredictor):
 
     @wraps(old_predict)
     def new_predict(self, *args, **kwargs):
-        _move_to(self, "cuda")
+        _move_to(self, "cpu")
         try:
             ret = old_predict(self, *args, **kwargs)
         finally:
@@ -123,7 +123,7 @@ class Predictor(BasePredictor):
 
             args = [
                 "ffmpeg", "-y",
-                # "-vsync", "0", "-hwaccel", "cuda", "-hwaccel_output_format", "cuda",
+                # "-vsync", "0", "-hwaccel", "cpu", "-hwaccel_output_format", "cpu",
                 "-stream_loop", "-1",
                 "-i", str(face),
                 "-i", str(audio),
