@@ -15,4 +15,4 @@ def talk():
 
 if __name__ == "__main__":
     os.makedirs("static", exist_ok=True)
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port="7860", debug=True)
