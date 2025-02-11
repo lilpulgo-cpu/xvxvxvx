@@ -4,6 +4,8 @@ import sounddevice as sd
 import requests
 import wave
 from dotenv import load_dotenv
+import os
+
 try:
     load_dotenv()
 except Exception as e:
