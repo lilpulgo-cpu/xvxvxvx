@@ -15,4 +15,4 @@ sounddevice
 huggingface_hub
 requests
 python-dotenv
-speech-recognition
+speechrecognition
