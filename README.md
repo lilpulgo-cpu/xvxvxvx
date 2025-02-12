@@ -8,4 +8,5 @@ colorTo: purple
 short_description: xdd
 service_port: 5000
 app_port: 5000
+pinned: true
 ---
