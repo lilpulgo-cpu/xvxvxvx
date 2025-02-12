@@ -3,6 +3,7 @@ import numpy as np
 import sounddevice as sd
 import requests
 import wave
+import os
 from dotenv import load_dotenv
 try:
     load_dotenv()
