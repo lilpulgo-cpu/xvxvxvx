@@ -1,5 +1,4 @@
 import requests
-import os
 
 LLAMA_API_URL = "https://api-inference.huggingface.co/models/meta-llama/Llama-3.2-1B"
 TTS_API_URL = "https://api-inference.huggingface.co/models/microsoft/speecht5_tts"
