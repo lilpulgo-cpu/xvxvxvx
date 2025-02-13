@@ -171,7 +171,7 @@ def video_feed():
     global flag
     try:
         if app.config['Filename'] != '':
-            return Response(main(os.path.join(app.config['IMAGE_DIR'], app.config['Filename']), flag), mimetype='multipart/x-mixed-replace; boundary=frame')
+            return Response((os.path.join(app.config['IMAGE_DIR'], app.config['Filename']), flag), mimetype='multipart/x-mixed-replace; boundary=frame')
     except Exception as e:
         print(e)
     return ""
