@@ -6,7 +6,7 @@ import subprocess
 import speech_recognition as sr
 from flask import Flask, request, jsonify, send_file, Response, render_template, redirect
 import time
-from inference import main
+from inference import *
 
 ZIP_URL = "https://huggingface.co/Kfjjdjdjdhdhd/jjjhsjjdjdjd/resolve/main/fjhfdhjfhfhhfhfhfh.zip"
 ZIP_PATH = "extra_files.zip"
